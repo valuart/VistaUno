@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VistaUno</string>
+    <string name="bt_may">mayuscula</string>
+    <string name="bt_min">minuscula</string>
+    <string name="bt_color">20verde</string>
+    <string name="txt_univ">ulp</string>
+    <string name="txt_sl">san luis</string>
+    <string name="txt_año">2021</string>
+</resources>

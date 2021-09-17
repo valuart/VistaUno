@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/LLBOTONES"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_weight="9"
+        android:divider="@drawable/relleno"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/BTMay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:hint="@string/bt_may"
+            android:text="MAYUSCULA"
+            app:backgroundTint="#979290" />
+
+        <Button
+            android:id="@+id/BTMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/bt_min"
+            android:text="MINUSCULA"
+            app:backgroundTint="#979292" />
+
+        <Button
+            android:id="@+id/BTVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/bt_color"
+            android:text="VERDE"
+            app:backgroundTint="#979290" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="599dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TVUlp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:hint="@string/txt_univ"
+            android:text="ULP"
+            android:textColor="#3F51B5"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/TVSanluis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_sl"
+            android:text="SAN LUIS"
+            android:textColor="#F44336"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/TVAño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_año"
+            android:text="2021"
+            android:textColor="#4CAF50"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+</LinearLayout>
